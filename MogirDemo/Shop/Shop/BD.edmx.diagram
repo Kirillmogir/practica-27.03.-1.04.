@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7482a3cd588048a597f8e87c9d2c0295" Name="Diagram1">
+        <EntityTypeShape EntityType="MBD.sysdiagrams" Width="1.5" PointX="9.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Заказы" Width="1.5" PointX="7.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Заявки" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Категории_продукции" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Пользователи" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Поставщик" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Продукция" Width="1.5" PointX="7.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Пункт_выдачи" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Роли" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Состав_заказа" Width="1.5" PointX="9.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MBD.Статус_заказа" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="MBD.FK_Заказы_Пункт_выдачи" ManuallyRouted="false" />
+        <AssociationConnector Association="MBD.FK_Заказы_Статус_заказа" ManuallyRouted="false" />
+        <AssociationConnector Association="MBD.FK_Состав_заказа_Заказы" ManuallyRouted="false" />
+        <AssociationConnector Association="MBD.FK_Заявки_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="MBD.FK_Заявки_Поставщик" ManuallyRouted="false" />
+        <AssociationConnector Association="MBD.FK_Продукция_Заявки" ManuallyRouted="false" />
+        <AssociationConnector Association="MBD.FK_Продукция_Категории_продукции" ManuallyRouted="false" />
+        <AssociationConnector Association="MBD.FK_Пользователи_Роли" ManuallyRouted="false" />
+        <AssociationConnector Association="MBD.FK_Состав_заказа_Продукция" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
